@@ -1,0 +1,91 @@
+h1{
+	text-align: center;
+	background: rgba(255,255,255,0.5);
+	border-radius: 15px;
+}
+
+
+h2 {
+	border-bottom: 1px solid gray;
+	padding-bottom: 5px;
+}
+
+body {
+	background: white url("siena.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+div {
+	background: rgba(255,255,255,0.8);
+	margin: auto;
+	display: block;
+	width: 75%;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+table {
+	text-align: center;
+}
+
+#contestants {
+	width: 40%;
+	height: 40%;
+	border-radius: 15px;
+}
+
+#registernow {
+	display: inline-block;
+	width: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #255698;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	box-shadow: 8px 8px 8px #333333;
+}
+
+nav ol, nav li {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	width: 150px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(255,255,255,.8);
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav li a:hover {
+  color: black;
+  background-color: rgba(255,255,255,.3);
+}
