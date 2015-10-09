@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
   		<link rel="stylesheet" type="text/css" href="style.css">
-  		<title>History of Top 3 Winners</title>
+  		<title>Survey</title>
 	</head>
 	
 	<body>
@@ -11,8 +11,32 @@
 		
 		<h3>Computing Survey</h3>
 		<form>
-		Name:<input type="text" name="name"><br>
-		Home address:<input type="text" name="address"><br>
+		
+		<label for="name">Name</label>: <input type="text" name="name"><br>
+		<label for="address">Home address</label>: <input type="text" name="address"><br>
+		<label for="city">City</label>: <input type="text" name="city"> <label for="state">State</label>: <input type="text" name="state"> <label for="zip">Zip Code</label>: <input type="text" name="zip"><br>
+		<label for="email">Email</label>: <input type="email" name="email"><br>
+		<label for="highSchool">High School</label>: <input type="text" name="highSchool"> <label for="gradYear">Year of Graduation</label>: <input type="text" name="gradYear"><br>
+		<ol>
+			<li>What math class are you currently enrolled in?</li>
+			<li>What is your favorite academic subject?</li>
+			<li>Are you planning on going to college?</li>
+			<li>What is your intended major?<br>
+				<ul>
+				<li><input type="checkbox" name="major" value="undecided">undecided</li>
+				<li><input type="checkbox" name="major" value="computer">Computer Science</li>
+				<li><input type="checkbox" name="major" value="physical">Physical Science <span class="majorEx">(ex: math / physics / engineering / technology / chemistry)</span></li>
+				<li><input type="checkbox" name="major" value="life">Life Science <span class="majorEx">(ex: biology / pre-med)</span></li>
+				<li><input type="checkbox" name="major" value="business">Business <span class="majorEx">(ex: accounting / marketing / management / finance)</span></li>
+				<li><input type="checkbox" name="major" value="human">Humanities <span class="majorEx">(ex: history / english / foreign language)</span></li>
+				<li><input type="checkbox" name="major" value="social">Social Science <span class="majorEx">(ex: economics / sociology / political science / psychology)</span></li>
+				<li><input type="checkbox" name="major" value="creative">Performing or Creative Arts</li>
+				<li><input type="checkbox" name="major" value="other">Other, please specify: <input type="text" name="major"></li>
+				</ul></li>
+		
+		</ol>
+		
+		
 		</form>
 	</body>
 </html>
