@@ -104,5 +104,22 @@ nav li a:hover {
 	padding: .5em;
 }
 
+.surveyForm {
+	text-align: left;
+}
+
+p {
+	margin: .25em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.majorEx {
+	font-size: 75%;
+	color: grey;
+}
+
 }
 }
