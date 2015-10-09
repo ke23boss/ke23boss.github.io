@@ -5,6 +5,9 @@ h1{
 	border-bottom: thick solid #FFCE34;
 }
 
+pre {
+	text-align: center;
+}
 
 h2 {
 	border-bottom: 1px solid #FFCE34;
