@@ -7,17 +7,20 @@
 	</head>
 	
 	<body>
-		<img src="siena_seal.jpg" id="sienaseal">
-	<nav align="center">
-	<ol>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="top-3-history.html">Past Winners</a></li>
-		<li><a href="problems.html">Past Problems</a></li>
-		<li><a href="pictures.html">Photo Gallery</a></li>
-		<li><a href="registration.html">Registration</a></li>
-		<li><a href="survey.html">Survey</a></li>
-	</ol>
-	</nav>
+		<nav>
+		 <ol>
+			 <table width="50%" align="center">
+				<tr>
+				<td><li><a href="index.html">Home</a></li></td>
+				<td><li><a href="top-3-history.html">Past Winners</a></li></td>
+				<td><li><a href="survey.html">Past Problems</a></li></td>
+				<td><li><a href="survey">Photo Gallery</a></li></td>
+				<td><li><a href="registration.html">Registration</a></li></td>
+				<td><li><a href="survey.html">Survey</a></li></td>
+				<td></tr>
+			</table>
+		  </ol>
+		</nav>	
 		
 		<h1>Siena College Computer Science Department's<br>21st Annual High School Programming Contest: April 25, 2008</h1>
 		
@@ -25,15 +28,21 @@
 		<h2>Computing Survey</h2>
 		<form>
 		
-		<p><label for="name">Name</label>: <input type="text" name="name"></p>
-		<p><label for="address">Home address</label>: <input type="text" name="address"></p>
-		<p><label for="city">City</label>: <input type="text" name="city"> <label for="state">State</label>: <input type="text" name="state"> <label for="zip">Zip Code</label>: <input type="text" name="zip"></p>
-		<p><label for="email">Email</label>: <input type="email" name="email"></p>
-		<p><label for="highSchool">High School</label>: <input type="text" name="highSchool"> <label for="gradYear">Year of Graduation</label>: <input type="text" name="gradYear"></p>
+		<p><label for="name">Name</label>: <input type="text" name="name"></p> <br>
+		<p><label for="email">Email</label>: <input type="email" name="email"></p> <br>
+		<p><label for="address">Home address</label>: <input type="text" name="address"></p><br>
+		<p><label for="city">City</label>: <input type="text" name="city"> 
+		<label for="state">State</label>: <input type="text" name="state"> 
+		<label for="zip">Zip Code</label>: <input type="text" name="zip"></p> <br>
+		<p><label for="highSchool">High School</label>: <input type="text" name="highSchool"> 
+		<label for="gradYear">Year of Graduation</label>: <input type="text" name="gradYear"></p>
 		<ol>
 			<li>What math class are you currently enrolled in?</li>
+			<input type="text"><br><br>
 			<li>What is your favorite academic subject?</li>
+			<input type="text"><br><br>
 			<li>Are you planning on going to college?</li>
+			<input type="text"><br><br>
 			<li>What is your intended major?<br>
 				<ul>
 				<li><input type="checkbox" name="major" value="undecided">undecided</li>
@@ -48,9 +57,10 @@
 				</ul></li>
 		
 		</ol>
+		<button type="button">Submit</button>
 		
 		
-		</form>
 		</div>
+		</form>
 	</body>
 </html>
