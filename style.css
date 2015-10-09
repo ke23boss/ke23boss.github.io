@@ -28,6 +28,10 @@ div {
 	overflow: hidden;
 }
 
+div.gallery img {
+	width: 300px;
+}
+
 table {
 	text-align: center;
 }
