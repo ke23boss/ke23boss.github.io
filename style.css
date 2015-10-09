@@ -162,3 +162,16 @@ ul {
 	color: grey;
 }
 
+
+h3 {
+	text-align: center;
+	color:#016445;
+	border-bottom: thin solid #FFCE34;
+}
+
+ol {
+	text-align:center;
+	list-style-position:inside;
+	color: #016445;
+}
+
