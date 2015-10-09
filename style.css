@@ -94,15 +94,15 @@ nav a {
 	padding-top: 10px;
 	text-align: center;
 	border-radius: 10px;
-	background-color: rgba(255,255,255,.8);
-	color: black;
+	background-color: #016445;
+	color: #FFCE34;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 nav li a:hover {
-  color: black;
-  background-color: rgba(255,255,255,.3);
+  color: #016445;
+  background-color: #FFCE34;
 }
 
 .year {
