@@ -1,33 +1,44 @@
 h1{
 	text-align: center;
-	background: rgba(255,255,255,0.5);
-	border-radius: 15px;
+	color: #016445;
+	padding-bottom: 15px;
+	border-bottom: thick solid #FFCE34;
 }
 
 
 h2 {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #FFCE34;
 	padding-bottom: 5px;
 }
 
 body {
-	background: white url("siena.jpg");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-attachment: fixed;
+	background: white; 
+	
 }
 
+#sienaseal{
+	width:30%;
+	height:30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
 div {
-	background: rgba(255,255,255,0.8);
 	margin: auto;
 	display: block;
-	width: 75%;
+	width: 65%;
 	padding-right: 10px;
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
 	border-radius: 15px;
+	color: #016445;
+	font-size: 18px;
+	font-weight:bold;
 }
 
 table {
@@ -38,6 +49,9 @@ table {
 	width: 40%;
 	height: 40%;
 	border-radius: 15px;
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
 }
 
 #registernow {
@@ -51,13 +65,14 @@ table {
 	padding-top: 10px;
 	text-align: center;
 	border-radius: 10px;
-	background-color: #255698;
-	color: black;
+	background-color: #FFCE34;
+	color: #016445;
 	font-weight: bold;
 	font-size: 25px;
 	text-decoration: none;
 	box-shadow: 8px 8px 8px #333333;
 }
+
 
 nav ol, nav li {
   padding: 0px;
@@ -79,13 +94,13 @@ nav a {
 	padding-top: 10px;
 	text-align: center;
 	border-radius: 10px;
-	background-color: rgba(255,255,255,.8);
-	color: black;
+	background-color: #016445;
+	color: #FFCE34;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 nav li a:hover {
-  color: black;
-  background-color: rgba(255,255,255,.3);
+  color: #016445;
+  background-color: #FFCE34;
 }
