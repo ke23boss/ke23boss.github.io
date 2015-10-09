@@ -167,6 +167,7 @@ h3 {
 	text-align: center;
 	color:#016445;
 	border-bottom: thin solid #FFCE34;
+	padding-bottom: 15px;
 }
 
 ol {
@@ -179,4 +180,12 @@ ol {
 
 li {
 	list-style:none;
+}
+
+p {
+	text-align:center;
+}
+
+label {
+	font-weight: bold;
 }
