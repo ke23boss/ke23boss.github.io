@@ -30,6 +30,8 @@ div {
 
 div.gallery img {
 	width: 300px;
+	border-radius: 15px;
+	padding: 10px;
 }
 
 table {
