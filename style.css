@@ -139,7 +139,7 @@ nav li a:hover {
 	margin: .5em;
 	width: 7.5em;
 	height: 4.5em;
-	background: rgba(255,255,255,0.8);
+	border: thin solid #FFCE34;
 	border-radius: 15px;
 	padding: .5em;
 }
