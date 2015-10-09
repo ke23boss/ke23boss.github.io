@@ -25,7 +25,9 @@ body {
 	margin-right: auto;
 }
 
-
+strong {
+	color:#FFCE34;
+}
 
 div {
 	margin: auto;
