@@ -28,6 +28,7 @@ div {
 	padding-bottom: 5px;
 	text-align: center;
 	border-radius: 15px;
+	overflow: hidden;
 }
 
 table {
@@ -91,7 +92,6 @@ nav li a:hover {
 }
 
 .year {
-	border: 1px solid red;
 	float: left;
 	margin: .5em;
 }
